@@ -22,7 +22,7 @@ public class StreamFilter {
      * No arg constructor
      */ //TODO - construct person stream of 100 person objects; startingCharacter is a random capital letter
     public StreamFilter() {
-        this(new PersonFactory().createPersonStream(100), RandomUtils.createCharacter('A','Z'));
+        this(new PersonFactory().createPersonStream(100), RandomUtils.createCharacter('a','z'));
     }
 
     /**
